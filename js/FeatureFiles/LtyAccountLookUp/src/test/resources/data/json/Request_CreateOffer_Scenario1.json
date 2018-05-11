@@ -1,0 +1,54 @@
+{
+	"rewardOffer": {
+		"offerHeader": {
+			"division": 71,
+			"programCode": "LTYMCY001",
+			"desc": "spend $200,Earn 2000 points",
+			"channelEligible": "In store",
+			"effectiveDate": "2017-10-16T12:00:00.000",
+			"expirationDate": "2017-10-20T11:59:00.000",
+			"offerStatus": "DRAFT",
+			"campaignId": "LTYMCY001",
+			"campaignDescription": "LTYMCY001",
+			"createdBy": "WBT_User"
+		},
+		"offerReward": {
+			"eventType": "GENERIC",
+			"offerType": "27",
+			"offerFrequency": 3,
+			"tierName": ["Platinum"],
+			"tenderType": ["MCC"],
+			"priceStatus": ["Active at Reg price",
+			"First markdown",
+			"Second markdown",
+			"Third markdown",
+			"Final Liguidation",
+			"Salvage",
+			"Job out",
+			"Permanent markdown"],
+			"psc": "NA",
+			"offerRank": "1",
+			"employeeExclusion": 0,
+			"fixedOfferCombinable": 0,
+			"isIncremental": false,
+            "isPowerPoint": false
+		},
+		"stores": {
+			"store": []
+		},
+		"productGroup": {
+			"recordGroup": "1",
+			"groupItemCount": 1,
+			"product": []
+		},
+		"isDeferredPoint": 0,
+		"offerRewardDetail": {
+			"txnSpendMin": 600,
+			"txnSpendMax": "",
+			"deptSpendMin": "",
+			"deptSpendMax": "",
+			"multiplier": "",
+			"points": 2000
+		}
+	}
+}

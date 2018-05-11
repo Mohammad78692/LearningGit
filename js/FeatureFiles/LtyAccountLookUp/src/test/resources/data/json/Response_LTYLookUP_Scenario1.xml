@@ -1,0 +1,53 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:LtyLookupOfferInfoResp xmlns:ns0="http://loyalty.macys.com/schemas/loyalty.account/LtyAccountResponse/v12_0">
+         <ns0:LtyLookupOffers>
+            <ns0:OfferCode>OfferCodeValue</ns0:OfferCode>
+            <ns0:OfferMode>Reward</ns0:OfferMode>
+            <ns0:OfferType>FIXED</ns0:OfferType>
+            <ns0:Division>71</ns0:Division>
+            <ns0:ProgramCode>LTYMCY001</ns0:ProgramCode>
+            <ns0:OfferFrequency>
+               <ns0:Count>-1</ns0:Count>
+               <ns0:Period>-1</ns0:Period>
+            </ns0:OfferFrequency>
+            <ns0:OfferRewardSpend>
+               <ns0:Points>2000.0</ns0:Points>
+               <ns0:TxnSpendMin>600.0</ns0:TxnSpendMin>
+            </ns0:OfferRewardSpend>
+            <ns0:OfferDesc>spend $200,Earn 2000 points</ns0:OfferDesc>
+            <ns0:StoreEligible>true</ns0:StoreEligible>
+            <ns0:OnlineEligible>false</ns0:OnlineEligible>
+            <ns0:EffectiveDate>2017-10-16</ns0:EffectiveDate>
+            <ns0:ExpiryDate>2017-10-20</ns0:ExpiryDate>
+            <ns1:TierCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">PREMIER</ns1:TierCode>
+            <ns0:PriceStatus>0</ns0:PriceStatus>
+            <ns0:PriceStatus>10</ns0:PriceStatus>
+            <ns0:PriceStatus>1</ns0:PriceStatus>
+            <ns0:PriceStatus>11</ns0:PriceStatus>
+            <ns0:PriceStatus>2</ns0:PriceStatus>
+            <ns0:PriceStatus>12</ns0:PriceStatus>
+            <ns0:PriceStatus>3</ns0:PriceStatus>
+            <ns0:PriceStatus>13</ns0:PriceStatus>
+            <ns0:PriceStatus>4</ns0:PriceStatus>
+            <ns0:PriceStatus>14</ns0:PriceStatus>
+            <ns0:PriceStatus>5</ns0:PriceStatus>
+            <ns0:PriceStatus>15</ns0:PriceStatus>
+            <ns0:PriceStatus>6</ns0:PriceStatus>
+            <ns0:PriceStatus>16</ns0:PriceStatus>
+            <ns0:PriceStatus>7</ns0:PriceStatus>
+            <ns0:PriceStatus>18</ns0:PriceStatus>
+            <ns0:TenderType>MCC</ns0:TenderType>
+            <ns0:isPowerPoint>false</ns0:isPowerPoint>
+            <ns0:isIncremental>false</ns0:isIncremental>
+            <ns0:isPickADay>false</ns0:isPickADay>
+            <ns0:FixedOfferCombinable>false</ns0:FixedOfferCombinable>
+            <ns0:OfferRank>1</ns0:OfferRank>
+         </ns0:LtyLookupOffers>
+         <ns0:OperationResponse>
+            <ns1:ReturnCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">0</ns1:ReturnCode>
+            <ns1:Message xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">Success</ns1:Message>
+         </ns0:OperationResponse>
+      </ns0:LtyLookupOfferInfoResp>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

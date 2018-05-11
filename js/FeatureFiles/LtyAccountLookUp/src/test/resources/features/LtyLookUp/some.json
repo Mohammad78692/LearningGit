@@ -1,0 +1,70 @@
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Customer enroll message check in tibco topic",
+        "description": "",
+        "id": "p2p-enrollemt-by-checking-the-topic-with-the-concerned-message;customer-enroll-message-check-in-tibco-topic",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "comments": [
+              {
+                "line": 6,
+                "value": "#\tGiven I Enroll Customer with Non Macys card for Star Reward program for POS"
+              },
+              {
+                "line": 7,
+                "value": "#\t\t| requestMethod |AddedByApp | requestFile              |"
+              },
+              {
+                "line": 8,
+                "value": "#\t\t| POST          |SPOS       | Request_NonMacysCusenrollOnline.xml |"
+              },
+              {
+                "line": 9,
+                "value": "#"
+              }
+            ],
+            "line": 10,
+            "name": "Tibco connection check Tests",
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "failed scenario",
+        "description": "",
+        "id": "p2p-enrollemt-by-checking-the-topic-with-the-concerned-message;failed-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 15,
+            "name": "Tibco connection check Tests",
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "P2P Enrollemt by checking the Topic with the concerned message",
+    "description": "",
+    "id": "p2p-enrollemt-by-checking-the-topic-with-the-concerned-message",
+    "keyword": "Feature",
+    "uri": "E:/Restassured/loyalty-integration-test/LtyIntegrationTest/LtyCustomerLookUp/src/test/resources/features/LtyCustomer/StarRewards-Enroll-Tibco_Topic_Listener.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@SPRING"
+      }
+    ]
+  }

@@ -1,0 +1,71 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Passes scenario which has time wait..",
+        "description": "",
+        "id": "featurenotes;passes-scenario-which-has-time-wait..",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 6,
+            "name": "I wait for 4000 millis",
+            "keyword": "Then "
+          },
+          {
+            "line": 9,
+            "name": "I wait for 4000 millis",
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Failed scenario which LookUps..",
+        "description": "",
+        "id": "featurenotes;failed-scenario-which-lookups..",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 13,
+            "name": "I LookUp Offer",
+            "rows": [
+              {
+                "cells": [
+                  "requestMethod",
+                  "requestFile",
+                  "responseFile"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "POST",
+                  "Request_LTYLookUP_Scenario1.xml",
+                  "Response_LTYLookUP_Scenario1.xml"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FeatureNotes",
+    "description": "",
+    "id": "featurenotes",
+    "keyword": "Feature",
+    "uri": "E:/Restassured/loyalty-integration-test/LtyIntegrationTest/LtyAccountLookUp/src/test/resources/features/LtyLookUp/LoyaltyLookUpScenarios.feature"
+  }
+]

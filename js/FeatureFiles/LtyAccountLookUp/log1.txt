@@ -1,0 +1,124 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building LtyIntegrationTest-LtyAccountLookUp 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://artifacts.devops.fds.com/public-snapshots/loyalty/LtyIntegrationTest-LtyCommon/1.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading: http://artifacts.devops.fds.com/public-snapshots/loyalty/LtyIntegrationTest/1.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading: http://artifacts.devops.fds.com/public-snapshots/com/macys/marketing/msp/msp-loyalty-integration-stubs/1.18.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded: http://artifacts.devops.fds.com/public-snapshots/com/macys/marketing/msp/msp-loyalty-integration-stubs/1.18.0-SNAPSHOT/maven-metadata.xml (365 B at 0.3 KB/sec)
+[INFO] Downloading: http://artifacts.devops.fds.com/public-snapshots/com/macys/marketing/msp/msp-loyalty/1.18.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded: http://artifacts.devops.fds.com/public-snapshots/com/macys/marketing/msp/msp-loyalty/1.18.0-SNAPSHOT/maven-metadata.xml (347 B at 0.5 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ LtyIntegrationTest-LtyAccountLookUp ---
+[INFO] Deleting E:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyAccountLookUp\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ LtyIntegrationTest-LtyAccountLookUp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyAccountLookUp\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ LtyIntegrationTest-LtyAccountLookUp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ LtyIntegrationTest-LtyAccountLookUp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ LtyIntegrationTest-LtyAccountLookUp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to E:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyAccountLookUp\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ LtyIntegrationTest-LtyAccountLookUp ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+#language: en
+Feature: FeatureNotes
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|Environment details : null 
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|Connected environment : QAT04
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|directory:QAT03
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:db-schema.properties
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:messaging-queue.properties
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:soap-rest-endpoints.properties
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|directory:QAT04
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:db-schema.properties
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:messaging-queue.properties
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:soap-rest-endpoints.properties
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|QAT03 properties {loyalty.ods.datasource.username=LYT3CBEM, logging.level.org.apache.http=INFO, logging.level.org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer=ERROR, lty.offer.producer.enabled=true, tibco.ems.ssl.username=ltyuser, loyalty.offer.controls.uri=/api/marketing/loyalty/v1/controls, tibco.ems.ssl.privatekey.password=ltyuser, loyalty.offer.activitylog.uri=/api/marketing/loyalty/v1/activitylog, rest.core.base.path=/api/, ems.client.instance.id=MCOMProdCellA.localhost.instance2, loyalty.LTYTransactionv12.address=https://ltyservicestest:10673/Loyalty/Services/Transaction/LTY_Transaction_v12, kafka.enable.secure.connection=true, tibco.ems.ssl.identity.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_LTYESSNP_TEST.p12, loyalty.offertool.datasource.name=offertool, loyalty.offertoolupdate.queue.name=M.MKT.LTY.TRANSACTION.LTYAPP.ProcessTran.Req, loyalty.offer.host=http://ln001xslty0002:9080, loyalty.offertool.datasource.maxPoolSize=2, lty.offer.consumer.max.count=1, ibco.ems.ssl.password=ltyuser, loyalty.offer.consumer.enabled=true, tibco.ems.ssl.trustedencoding.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_MA000XSPKI03_TEST.pem, enable.secure.ems.connection=true, tibco.ems.ssl.certificate.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_MA000XSPKI03_TEST.pem, logging.level.root=INFO, tibco.ems.reconnattempttimeout=5000, loyalty.LTYCustomerv11.address=https://ltyservicestest:10683/Loyalty/Services/Customer/LTY_Customer_v11, loyalty.ods.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, restassured.logs.enable=true, loyalty.ods.datasource.maxPoolSize=2, loyalty.offertoolupdate.topic.name=M.MKT.LTY.TRANSACTION.LTYAPP.ProcessTran.Resp, TIBCO_EMS_SSL_URL=ssl://tibenp03.federated.fds:7315, acknowledge.mode=CLIENT_ACKNOWLEDGE, loyalty.ods.datasource.password=tibco, lty.offer.consumer.enabled=true, loyalty.offertool.datasource.username=LYT4LDTA, loyalty.ods.datasource.name=ods, tibco.ems.reconnattemptcount=5000, loyalty.ods.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST03, loyalty.offertool.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, loyalty.offertool.datasource.password=tibco123, loyalty.LTYAccountv12.address=https://ltyservicestest:10663/Loyalty/Services/Account/LTY_Account_v12, loyalty.offertool.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST04, tibco.ems.reconnattemptdelay=5000, loyalty.offer.uri=/api/marketing/loyalty/v1/offers, loyalty.LTYTestBed.address=http://tibanp15.federated.fds:10040/Services/TestBed}
+TR=2018-04-05 18:13:22,539|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|QAT04 properties {loyalty.ods.datasource.username=LYT3CBEM, logging.level.org.apache.http=INFO, logging.level.org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer=ERROR, lty.offer.producer.enabled=true, tibco.ems.ssl.username=ltyuser, loyalty.offer.controls.uri=/api/marketing/loyalty/v1/controls, tibco.ems.ssl.privatekey.password=ltyuser, loyalty.offer.activitylog.uri=/api/marketing/loyalty/v1/activitylog, rest.core.base.path=/api/, ems.client.instance.id=MCOMProdCellA.localhost.instance2, loyalty.LTYTransactionv12.address=https://ltyservicestest:10674/Loyalty/Services/Transaction/LTY_Transaction_v12, kafka.enable.secure.connection=true, tibco.ems.ssl.identity.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_LTYESSNP_TEST.p12, loyalty.offertool.datasource.name=offertool, loyalty.offertoolupdate.queue.name=M.MKT.LTY.TRANSACTION.LTYAPP.ProcessTran.Req, loyalty.offer.host=http://192.168.60.58:8099, loyalty.offertool.datasource.maxPoolSize=2, lty.offer.consumer.max.count=1, ibco.ems.ssl.password=ltyuser, loyalty.offer.consumer.enabled=true, tibco.ems.ssl.trustedencoding.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_MA000XSPKI03_TEST.pem, enable.secure.ems.connection=true, tibco.ems.ssl.certificate.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_MA000XSPKI03_TEST.pem, logging.level.root=INFO, tibco.ems.reconnattempttimeout=5000, loyalty.LTYCustomerv11.address=https://ltyservicestest:10684/Loyalty/Services/Customer/LTY_Customer_v11, loyalty.ods.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, restassured.logs.enable=true, loyalty.ods.datasource.maxPoolSize=2, loyalty.offertoolupdate.topic.name=M.MKT.LTY.TRANSACTION.LTYAPP.ProcessTran.Resp, TIBCO_EMS_SSL_URL=ssl://tibenp03.federated.fds:7345, acknowledge.mode=CLIENT_ACKNOWLEDGE, loyalty.ods.datasource.password=tibco, lty.offer.consumer.enabled=true, loyalty.offertool.datasource.username=LYT4LDTA, loyalty.ods.datasource.name=ods, tibco.ems.reconnattemptcount=5000, loyalty.ods.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST03, loyalty.offertool.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, loyalty.offertool.datasource.password=tibco123, loyalty.LTYAccountv12.address=https://ltyservicestest:10663/Loyalty/Services/Account/LTY_Account_v12, loyalty.offertool.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST04, tibco.ems.reconnattemptdelay=5000, loyalty.offer.uri=/getlogcount, loyalty.LTYTestBed.address=http://tibanp16.federated.fds:30060/Services/TestBed}
+
+  Scenario: Passes scenario which has time wait.. [90m# features/LtyLookUp/LoyaltyLookUpScenarios.feature:5[0m
+    [32mThen [0m[32mI wait for [0m[32m[1m4000[0m[32m millis[0m                   [90m# LtyLookUpSteps.i_wait_some_time(int)[0m
+    [32mThen [0m[32mI wait for [0m[32m[1m4000[0m[32m millis[0m                   [90m# LtyLookUpSteps.i_wait_some_time(int)[0m
+TR=2018-04-05 18:13:30,571|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyLookUp.LtyLookUpSteps|Start of Offer LookUp
+TR=2018-04-05 18:13:30,571|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyLookUpWrapper|Start of method :: lookupOfferInfo
+TR=2018-04-05 18:13:30,586|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeService is starting*********
+TR=2018-04-05 18:13:30,586|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|Final uri:::::: 
+TR=2018-04-05 18:13:30,586|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********Request file name********** Request_LTYLookUP_Scenario1.xml
+TR=2018-04-05 18:13:30,586|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody starting**************
+TR=2018-04-05 18:13:30,602|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody ending**************
+TR=2018-04-05 18:13:30,602|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********updateDynamicRequestBody starting**********
+
+  Scenario: Failed scenario which LookUps.. [90m# features/LtyLookUp/LoyaltyLookUpScenarios.feature:12[0m
+    [31mThen [0m[31mI LookUp Offer[0m                     [90m# LtyLookUpSteps.i_LookUp_Offer(DataTable)[0m
+      [31mjava.lang.NullPointerException
+      	at java.lang.String.replace(String.java:2240)
+      	at com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl.updateDynamicRequestBody(RestAssuredClientImpl.java:304)
+      	at com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl.getRequestSpecificationBuildData(RestAssuredClientImpl.java:240)
+      	at com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl.invokeService(RestAssuredClientImpl.java:93)
+      	at com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyLookUpWrapper.lookupOfferInfo(LtyLookUpWrapper.java:79)
+      	at com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyLookUp.LtyLookUpSteps.i_LookUp_Offer(LtyLookUpSteps.java:71)
+      	at ?.Then I LookUp Offer(features/LtyLookUp/LoyaltyLookUpScenarios.feature:13)
+      [0m
+
+[31mFailed scenarios:[0m
+[31mfeatures/LtyLookUp/LoyaltyLookUpScenarios.feature:12 [0m# Scenario: Failed scenario which LookUps..
+
+2 Scenarios ([31m1 failed[0m, [32m1 passed[0m)
+3 Steps ([31m1 failed[0m, [32m2 passed[0m)
+0m8.342s
+
+java.lang.NullPointerException
+	at java.lang.String.replace(String.java:2240)
+	at com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl.updateDynamicRequestBody(RestAssuredClientImpl.java:304)
+	at com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl.getRequestSpecificationBuildData(RestAssuredClientImpl.java:240)
+	at com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl.invokeService(RestAssuredClientImpl.java:93)
+	at com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyLookUpWrapper.lookupOfferInfo(LtyLookUpWrapper.java:79)
+	at com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyLookUp.LtyLookUpSteps.i_LookUp_Offer(LtyLookUpSteps.java:71)
+	at ?.Then I LookUp Offer(features/LtyLookUp/LoyaltyLookUpScenarios.feature:13)
+
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.063 sec <<< FAILURE! - in com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+Then I LookUp Offer(Scenario: Failed scenario which LookUps..)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Failed scenario which LookUps..  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+
+
+Results :
+
+Tests in error: 
+  null
+  null
+
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.682 s
+[INFO] Finished at: 2018-04-05T18:13:31+05:30
+[INFO] Final Memory: 35M/296M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project LtyIntegrationTest-LtyAccountLookUp: There are test failures.
+[ERROR] 
+[ERROR] Please refer to E:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyAccountLookUp\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

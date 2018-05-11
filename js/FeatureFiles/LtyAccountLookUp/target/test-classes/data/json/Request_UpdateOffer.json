@@ -1,0 +1,8 @@
+{
+	"rewardOffer": {
+		"offerHeader": {
+			"offerCode": "offrCode",
+			"offerStatus": "DRAFT"
+		}
+	}
+}

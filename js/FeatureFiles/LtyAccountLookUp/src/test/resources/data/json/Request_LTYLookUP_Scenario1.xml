@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v12="http://loyalty.macys.com/schemas/loyalty.account/LtyAccountRequest/v12_0" xmlns:v121="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <version>12</version>
+         <client_id>Stores</client_id>
+         <subclient_id>SPOS</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v12:LtyLookupOfferInfoReq>
+         <v121:CommunicationHeader>
+            <v121:Division>71</v121:Division>
+            <v121:SourceApp>ICMCS</v121:SourceApp>
+            <v121:DeviceId>1234</v121:DeviceId>
+            <v121:DeviceType>Ipad</v121:DeviceType>
+            <v121:DeviceChannel>uPOS</v121:DeviceChannel>
+            <v121:AssociateId>12345</v121:AssociateId>
+            <v121:LTYVersion>12</v121:LTYVersion>
+         </v121:CommunicationHeader>
+         <v12:OfferCode>OfferCodeValue</v12:OfferCode>
+      </v12:LtyLookupOfferInfoReq>
+   </soapenv:Body>
+</soapenv:Envelope>
