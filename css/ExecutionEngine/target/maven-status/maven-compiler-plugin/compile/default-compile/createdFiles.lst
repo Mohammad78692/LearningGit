@@ -1,0 +1,12 @@
+com\osi\engine\gitService\FeatureService.class
+com\osi\engine\resource\FeatureFileController.class
+com\osi\engine\model\PicklesList.class
+com\osi\engine\resource\GitCloneController.class
+com\osi\engine\model\MyPojo.class
+com\osi\engine\model\Elements.class
+com\osi\engine\ServletInitializer.class
+com\osi\engine\ExecutionEngineApplication.class
+com\osi\engine\model\Rows.class
+com\osi\engine\model\Comments.class
+com\osi\engine\model\Steps.class
+com\osi\engine\gitService\GitService.class
