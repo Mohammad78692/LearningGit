@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/engine-0.0.1-SNAPSHOT.war engine-0.0.1-SNAPSHOT.war
+ADD target/engine-1.war engine-1.war
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","engine-0.0.1-SNAPSHOT.war"]
+ENTRYPOINT ["java","-jar","engine-1.war"]
