@@ -1,7 +1,7 @@
 #language: en
 Feature: FeatureNotes
 
-
+@Scenario10
 Scenario: Passes scenario which has time wait..
 Then I wait for 4000 millis
 	
