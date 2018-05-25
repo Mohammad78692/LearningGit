@@ -63,7 +63,7 @@ Scenario: Enroll Customer with Non Macys Card for Online with Mailing Address is
 		
 
 @HighPriority
-Scenario: Enroll Customer with Non Macys Card for Online with Mailing Address is optional 
+Scenario: Enroll Customer with Non Macys Card for Online with 
 	Given I Enroll Customer with Non Macys card for Star Reward program for MCOM 
 		| requestMethod |AddedByApp | requestFile              |
 		| POST          |MCOM       | Request_NonMacysCusenrollOnline.xml |
